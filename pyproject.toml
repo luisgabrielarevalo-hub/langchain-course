@@ -7,7 +7,14 @@ authors = [
     { name = "Luis Gabriel Arevalo Herrera", email = "luisgabrielarevalo@hotmail.com" }
 ]
 requires-python = ">=3.15"
-dependencies = []
+dependencies = [
+    "black>=26.10.1",
+    "isort>=9.0.2",
+    "langchain>=1.4.9",
+    "langchain-google-genai>=4.4.3",
+    "langchain-ollama>=1.1.0",
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 langchain-course = "langchain_course:main"
